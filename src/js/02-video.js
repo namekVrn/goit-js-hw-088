@@ -1,5 +1,4 @@
 import throttle from 'lodash.throttle'
-import {setLocalStorage} from './module/jsonParceWhereStorage '
 console.log(throttle)
 const iframe = document.querySelector('.vimeo');
 const player = new Vimeo.Player(iframe);
