@@ -25,6 +25,10 @@
   transform: scale(1.03);
 }
 
+.list{
+  list-style: none; 
+}
+
 .gallery__image {
   height: 100%;
   width: 100%;
