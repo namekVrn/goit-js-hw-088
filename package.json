@@ -6,7 +6,7 @@
   "homepage": "https://namekVrn.github.io/goit-js-hw-088",
   "scripts": {
     "dev": "parcel src/*.html",
-    "build": "parcel build src/*.html --public-url/goit-js-hw-088/"
+    "build": "parcel build src/*.html --public-url /goit-js-hw-088/"
   },
   "repository": {
     "type": "git",
