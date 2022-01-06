@@ -10,13 +10,13 @@ console.log(galleryItems);
 
 const galleryBox = document.querySelector('.gallery')
 const renderHtml = ({original, preview,description })=>{
-    return ` <ul><li class="list"><a class="gallery__item" href="${original}">
+    return `<li class="list"><a class="gallery__item" href="${original}">
     <img
       class="gallery__image"
       src="${preview}"
       title="${description}"
     />
-  </a></li></ul>`
+  </a></li>`
 }
 
 const resultHtml = galleryItems.map((renderHtml)).join("")
