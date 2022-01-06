@@ -28,4 +28,7 @@
   background-size: cover;
   background-position: center;
 }
+.list{
+ list-style: none; 
+}
 /*# sourceMappingURL=main.css.map */
