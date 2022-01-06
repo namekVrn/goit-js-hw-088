@@ -10,7 +10,7 @@ console.log(galleryItems);
 
 const galleryBox = document.querySelector('.gallery')
 const renderHtml = ({original, preview,description })=>{
-    return ` <ul><li><a class="gallery__item" href="${original}">
+    return ` <ul><li class="list"><a class="gallery__item" href="${original}">
     <img
       class="gallery__image"
       src="${preview}"
