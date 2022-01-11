@@ -24,8 +24,8 @@ function onsubForm(event){                                         // метод
 }
 
 function onGetObj(event){                                          // Добавляется в объект ключ и новое значение 
-    objData[event.target.name] = event.target.value
-    objData[event.target.name] = event.target.value
+    objData[event.target.name] = event.target.value || ''
+    objData[event.target.name] = event.target.value || ''
     localStorage.setItem("feedback-form-state", JSON.stringify(objData))
  
 }

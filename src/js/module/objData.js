@@ -1,1 +1,1 @@
-export const objData = {name:"", message: ""}
+export const objData = {email:"", message: ""}
