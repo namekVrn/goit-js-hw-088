@@ -11,7 +11,7 @@ emailInput.addEventListener('input', throttle(onGetObj, 500))
 textAreaInput.addEventListener('input', throttle(onGetObj, 500))
 
 const statusStorage = jsonParceWhereStorage("feedback-form-state") // Записывает результат парса JSON в переменную
-
+console.log(statusStorage)
 if(statusStorage){                                                 // Если true, то показываем в полях данные из localStorage
     emailInput.value = statusStorage.email;
     textAreaInput.value = statusStorage.message;
