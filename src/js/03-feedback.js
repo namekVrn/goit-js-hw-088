@@ -19,8 +19,9 @@ if(statusStorage){                                                 // Если t
 function onsubForm(event){                                         // метод при submit`e 
     event.preventDefault()
     event.target.reset()
+    let getStorage = JSON.parse(localStorage.getItem("feedback-form-state"))
+    console.log(getStorage)
     localStorage.removeItem("feedback-form-state")
-    console.log(objData)
 }
 
 function onGetObj(event){                                          // Добавляется в объект ключ и новое значение 
